@@ -1,0 +1,105 @@
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+
+/* aboutSection */
+.about , .histroy , .charity  {
+    direction: rtl !important;
+} 
+
+.about span {
+    right: 18px !important;
+    left: unset;
+}
+
+
+/* // arabic syntax */
+.about  ,  .histroy   ,  .newsFeed p , .activities .boxlite .overlayActive .boxs .box-news .info , 
+.details .info , .contact , .news .news-cover , .showNews , .aboutCover , .aboutBody , .poet .content .news , .charity , 
+.histroy .boxs .box .boxinfo ul li , .activities .title  , .poet .title 
+ {
+    text-align: right !important;
+}
+
+.histroy .title , .activities .title , .poet .title  {
+    margin-right: 15px;
+}
+
+
+
+.histroy .boxs .box .boxinfo ul li span {
+    float: left !important;
+}
+
+.poet .content .news .box-article .date {margin-right: 10px;}
+.poet .content .news .box-article .date::before {
+    left: unset !important;
+    right: -12px;
+}
+
+.poet .content .news .models header {
+    margin-right:0 !important;
+    margin-left: unset !important;
+}
+
+.poet .content .news .models article {
+    width: unset !important;
+}
+
+.almeria .info-club .box-match .match .info {
+    font-size: 29px;
+    margin-top: 21px;
+}
+
+.almeria .info-club .box-match .match .clubone, .almeria .info-club .box-match .match .clubtwo {
+    margin-right: unset !important;
+    margin-top: unset !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+/* contact */
+/* .contact {
+
+} */
+
+.contact .title::after {
+    right: 0 !important;
+    left:unset !important;
+    bottom: -10px !important;
+}
+
+
+.aboutSection .newsFeed header::after , 
+.news .news-cover header::after ,.showNews .title::after {
+    right: 0;
+    left: unset;
+}
+
+.showNews .title::after {
+    bottom: -15px !important;
+}
+
+.news .news-cover .linkShow {
+    float: right;
+}
+
+.news .title {
+    text-align: right;
+}
+
+
+
+/* details   */
+
+/* .details .info  {
+
+
+} */
+
+/* .date */
+/* 
+  {
+
+} */
